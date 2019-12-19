@@ -2,12 +2,9 @@ array = ["1", "2", "3", "4"]
 def oxford_comma(array)
   if array.length >= 3 
     last_element = array.pop
-    
-    string = array[-2]
-    string.join(" , ")
-    puts string 
+    return array.join (" , ") << "and" + last_element
   else
-   return array
+   return array.join (" , ")
   end
 end
 
