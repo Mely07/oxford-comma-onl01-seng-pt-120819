@@ -6,6 +6,7 @@ def oxford_comma(array)
     puts string 
   else
    return array
+  end
 end
 
 oxford_comma(array)
