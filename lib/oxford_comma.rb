@@ -1,4 +1,4 @@
-array = ["1", "2", "3", "4"]
+
 def oxford_comma(array)
   if array.length >= 3 
     last_element = array.pop
@@ -8,4 +8,4 @@ def oxford_comma(array)
   end
 end
 
-oxford_comma(array)
+
